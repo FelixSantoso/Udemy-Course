@@ -33,7 +33,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
           appBar: AppBar(
-            title: Text('Flutter Assignment'),
+            title: Text('First Assignment'),
           ),
           body: TextController(listOfText[textIndex], changeText)),
     );
