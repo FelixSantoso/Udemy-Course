@@ -20,11 +20,7 @@ class _MyAppState extends State<MyApp> {
 
   void changeText() {
     setState(() {
-      if (textIndex == listOfText.length - 1) {
-        textIndex = 0;
-      } else {
-        textIndex++;
-      }
+      textIndex = ++textIndex % listOfText.length;
     });
   }
 
