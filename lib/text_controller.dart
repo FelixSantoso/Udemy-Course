@@ -19,8 +19,8 @@ class TextController extends StatelessWidget {
           onPressed: changeText,
           child: Text('Tap to change text'),
           style: ElevatedButton.styleFrom(
-            primary: Colors.greenAccent[400],
-            onPrimary: Colors.black,
+            backgroundColor: Colors.greenAccent[400],
+            foregroundColor: Colors.black,
           ),
         )
       ],
